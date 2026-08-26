@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio - Dideandi</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- NAVIGASI -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">🚀 MyPorto</a>
+            <ul class="nav-links">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+            <button class="menu-toggle" id="menuToggle">☰</button>
+        </div>
+    </nav>
+
+    <!-- SECTION: BERANDA -->
+    <section id="home" class="section hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-avatar">👨‍💻</div>
+                <h1>Halo, Saya <span class="highlight">Dideandi</span></h1>
+                <p class="hero-subtitle">Web Developer & Cloud Enthusiast</p>
+                <p class="hero-desc">
+                    Saya membangun aplikasi web modern dan solusi digital 
+                    menggunakan teknologi terkini.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Lihat Proyek</a>
+                    <a href="#contact" class="btn btn-outline">Hubungi Saya</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: TENTANG -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Tentang Saya</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        Saya adalah pengembang web yang bersemangat dengan fokus pada 
+                        pengalaman pengguna yang baik dan kode yang bersih. Saat ini 
+                        saya mendalami pengembangan aplikasi web dengan <strong>HTML</strong>, 
+                        <strong>CSS</strong>, <strong>JavaScript</strong>, dan 
+                        <strong>Google Cloud Platform</strong>.
+                    </p>
+                    <p>
+                        Saya percaya bahwa teknologi harus bermanfaat dan mudah diakses 
+                        oleh semua orang. Saya selalu terbuka untuk kolaborasi dan 
+                        proyek-proyek menarik.
+                    </p>
+                </div>
+                <div class="about-skills">
+                    <h3>Keahlian</h3>
+                    <div class="skills-grid">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">Google Cloud</span>
+                        <span class="skill-tag">Responsive Design</span>
+                        <span class="skill-tag">UI/UX</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: PROYEK -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Proyek Saya</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">🌤️</div>
+                    <h3>Aplikasi Cuaca</h3>
+                    <p>Aplikasi berbasis JavaScript yang menampilkan cuaca terkini menggunakan API eksternal.</p>
+                    <div class="project-tech">
+                        <span>JavaScript</span>
+                        <span>API</span>
+                    </div>
+                    <a href="#" class="btn-sm">Lihat Detail →</a>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">🎨</div>
+                    <h3>Website Portofolio</h3>
+                    <p>Website portofolio modern dan responsif yang Anda lihat sekarang.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JS</span>
+                    </div>
+                    <a href="#" class="btn-sm">Lihat Detail →</a>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">📊</div>
+                    <h3>Dashboard Admin</h3>
+                    <p>Dashboard sederhana untuk memantau data dan analitik secara real-time.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Chart.js</span>
+                    </div>
+                    <a href="#" class="btn-sm">Lihat Detail →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: KONTAK -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Hubungi Saya</h2>
+            <p class="contact-subtitle">
+                Tertarik untuk berkolaborasi? Isi form di bawah ini dan saya akan 
+                segera merespons.
+            </p>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Nama Lengkap</label>
+                    <input type="text" id="name" placeholder="Masukkan nama Anda" required />
+                </div>
+                <div class="form-group">
+                    <label for="email">Alamat Email</label>
+                    <input type="email" id="email" placeholder="Masukkan email Anda" required />
+                </div>
+                <div class="form-group">
+                    <label for="message">Pesan</label>
+                    <textarea id="message" rows="5" placeholder="Tulis pesan Anda..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Kirim Pesan ✉️</button>
+            </form>
+            <div id="formMessage"></div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Dideandi. Dibuat dengan ❤️ menggunakan GitHub Pages.</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon">🐦</a>
+                    <a href="#" class="social-icon">💼</a>
+                    <a href="#" class="social-icon">📧</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
