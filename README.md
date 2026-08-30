@@ -1,4 +1,4 @@
-# 🌐 My Website - Portofolio Die andri
+My Website - Portofolio Yudi Andriana
 
 
 Ini adalah website portofolio pribadi saya yang dibuat menggunakan **HTML**, **CSS**, dan **JavaScript** murni. Website ini dihosting menggunakan **GitHub Pages** secara gratis.
@@ -17,4 +17,3 @@ Ini adalah website portofolio pribadi saya yang dibuat menggunakan **HTML**, **C
 - CSS3 (Flexbox, Grid, CSS Variables)
 - JavaScript (ES6+)
 
-## 📂 Struktur Folder
